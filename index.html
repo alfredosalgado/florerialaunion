@@ -10,7 +10,7 @@
   </head>
   <body>
     <header class="bg-secondary text-light container-flex">
-      <div class="container d-flex flex-wrap py-3 justify-content-around">
+      <div class="container d-flex flex-wrap py-2 justify-content-around">
         <div>
           <p><i class="fa-solid fa-phone"></i>  +56 920700893 - +56 947121402</p>
         </div>
@@ -19,13 +19,13 @@
         </div>
       </div>
       <nav class="bgnav py-0">
-        <div class="container d-flex justify-content-around">
-          <div class="navf"><img src="./assets/img/navflower.JPG" alt="" height="130"></div>
+        <div class="container d-flex justify-content-around align-items-center">
+          <div class="navf"><img src="./assets/img/navflower.JPG" alt="" height="100"></div>
           <a class="navbar-brand py-2" href="#">
             <img src="./assets/img/logo2.jpeg" class="rounded-circle" alt="Bootstrap" width="130" height="130">
           </a>
           <div class="navf">
-            <img src="./assets/img/navflower2.jpg" alt="" height="130">
+            <img src="./assets/img/navflower2.jpg" alt="" height="100">
           </div>
         </div>
       </nav>
@@ -40,7 +40,7 @@
         <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
           <div class="navbar-nav w-100 d-flex justify-content-around">
             <a class="nav-link" aria-current="page" href="#">Sobre nosotros</a>
-            <a class="nav-link" href="#">Productos</a>
+            <a class="nav-link" href="#">Ramos de Flores</a>
             <a class="nav-link" href="#">Preguntas frecuentes</a>
             <a class="nav-link" href="#">Contacto</a>
 
@@ -49,35 +49,104 @@
       </div>
     </nav>
     <menu>
-      <section id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="8000" data-bs-pause="false">
+      <section id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="10000" data-bs-pause="false">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="image-container">
               <img src="./assets/img/banner1.1.jpg" class="d-block w-100 img1" alt="Flor 1">
-           
+              <div class="carousel-caption-container">
+                <div class="carousel-caption">
+                  <p>Bienvenidos</p>
+                </div>
+              </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="image-container">
               <img src="./assets/img/b2.webp" class="d-block w-100 img1" alt="Flor 2">
-              
+              <div class="carousel-caption-container">
+                <div class="carousel-caption">
+                  <p>a Floreria La Union Spa</p>
+                </div>
+              </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="image-container">
               <img src="./assets/img/b6.1.jpg" class="d-block w-100 img1" alt="Flor 3">
-             
+              <div class="carousel-caption-container">
+                <div class="carousel-caption">
+                  <p>Ramos para cualquier ocasión</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="carousel-caption-container">
-          <div class="carousel-caption">
-            <p>Bienvenidos</p>
-          </div>
-        </div>
-    
       </section>
-      
+      <article class="py-4">
+        <!-- Carrusel de Bootstrap -->
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="text-center">
+          <i class="fas fa-heart fa-3x text-danger pb-2"></i>
+          <h5>Servicio al Cliente dedicado</h5>
+          <p>Llámamos o háblanos por whatsapp de 9:30 am a 8 pm</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="text-center">
+          <i class="fas fa-check-circle fa-3x text-success pb-2"></i>
+          <h5>Satisfacción Garantizada</h5>
+          <p>Si no estás encantado con tu arreglo floral, lo solucionaremos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="text-center">
+          <i class="fa-solid fa-cart-shopping fa-3x text-primary pb-2"></i>
+          <h5>Compra de forma rápida</h5>
+          <p class="px-4">Elige tu ramo, pincha en lo quiero y coordina con nosotros el pago y entrega.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="text-center">
+          <i class="fa-regular fa-clock fa-3x text-success pb-2"></i>
+          <h5>Entregamos el mismo día</h5>
+          <p>La entrega puede tardar entre 2-4 horas en el mismo día.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="text-center">
+          <i class="fa-solid fa-palette fa-3x pb-2" style="color: #FFD43B;"></i>
+          <h5>Personaliza tu arreglo</h5>
+          <p class="px-4">Podemos personalizar tus arreglos florales según tus preferencias y necesidades.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Agrega más items si es necesario -->
+  </div>
+
+  <!-- Controles del carrusel (opcional) -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+      </article>
     </menu>
     <footer>
       

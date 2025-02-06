@@ -30,3 +30,4 @@ scrollToTopBtn.addEventListener("click", function (event) {
     behavior: "smooth", // Añade la transición suave
   });
 });
+
