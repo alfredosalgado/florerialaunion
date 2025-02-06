@@ -263,3 +263,30 @@ article {
 .card:hover .card-img-top {
   transform: scale(1.05); /* La imagen también se agranda ligeramente */
 }
+
+
+/* Estilo para el botón de WhatsApp */
+.btn-whatsapp {
+  background-color: #25D366; /* Color verde de WhatsApp */
+  color: white;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Espacio entre el icono y el texto */
+  transition: all 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.btn-whatsapp:hover {
+  background-color: #1ebe5d; /* Verde más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Agranda ligeramente el botón */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el efecto flotante */
+}
+
+/* Icono de WhatsApp */
+.btn-whatsapp i {
+  font-size: 1.2rem;
+}
