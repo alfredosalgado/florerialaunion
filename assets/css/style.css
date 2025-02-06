@@ -1,0 +1,115 @@
+header {
+  font-size: small;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.sha {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Sombra más intensa */
+}
+
+menu {
+  padding: 0;
+}
+
+/* Asegúrate de que el contenedor no se vea afectado por la animación */
+.carousel-item {
+  position: relative; /* Para que la imagen se posicione absolutamente */
+  overflow: hidden; /* Ocultamos cualquier parte de la imagen que se salga del contenedor */
+  height: 450px; /* O la altura que desees para tu carrusel */
+}
+
+/* Media query para pantallas más pequeñas (móviles) */
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 300px; /* Ajustamos la altura para vista móvil */
+  }
+  .navf {
+    display: none;
+  }
+}
+
+.carousel-item::before {
+  content: ''; /* Creamos un pseudo-elemento para el fondo */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.15); /* Fondo blanco con 20% de opacidad */
+  z-index: 1; /* Aseguramos que el fondo esté sobre la imagen, pero debajo del contenido */
+}
+
+.carousel-item img {
+  width: 100%; /* La imagen ocupa todo el espacio disponible */
+  height: 100%; /* La imagen mantiene el tamaño del contenedor */
+  object-fit: cover; /* Asegura que la imagen se recorte para cubrir el contenedor sin distorsión */
+  position: absolute; /* La imagen se posiciona encima del contenedor */
+  top: 0;
+  left: 0;
+  transition: transform 9s ease-in-out; /* Animación suave para la escala */
+}
+
+/* Aplicamos la animación solo a la imagen activa */
+.carousel-item.active img {
+  animation: growImage 9s ease-in-out infinite; /* Hace crecer solo la imagen */
+}
+
+/* Definición de la animación */
+@keyframes growImage {
+  0% {
+    transform: scale(1); /* Tamaño inicial */
+  }
+  100% {
+    transform: scale(1.20); /* Aumenta el tamaño de la imagen */
+  }
+}
+
+.carousel-item-next img,
+.carousel-item-prev img {
+  filter: blur(2px); /* Un pequeño desenfoque para las imágenes de transición */
+}
+
+
+.bgnav {
+  background-color: white;
+}
+
+/* Estilo para el contenedor de la imagen */
+.image-container {
+  position: relative; /* Necesario para posicionar correctamente las imágenes */
+  height: 100%;
+}
+
+/* Estilo para el contenedor del texto */
+.carousel-caption-container {
+  position: absolute; /* Lo posicionamos de manera absoluta en el carrusel */
+  top: 0; /* Asegura que el contenedor cubra todo el alto */
+  left: 0; /* Asegura que el contenedor cubra todo el ancho */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+  height: 100%; /* Asegura que el contenedor ocupe todo el alto */
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  z-index: 2; /* Asegura que el texto quede por encima de las imágenes */
+  pointer-events: none; /* Evita que el texto interfiera con la interacción con el carrusel */
+}
+
+/* Estilo para el texto */
+.carousel-caption {
+  top: 0; /* Asegura que el contenedor cubra todo el alto */
+  left: 0; /* Asegura que el contenedor cubra todo el ancho */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+  height: 100%; /* Asegura que el contenedor ocupe todo el alto */
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  color: white; /* Color del texto */
+  font-size: 8vw; /* Tamaño del texto */
+  font-weight: bold; /* Negrita */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para mejorar visibilidad */
+}
+
