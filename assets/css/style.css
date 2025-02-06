@@ -148,7 +148,7 @@ menu {
   width: 60px; /* Tamaño del botón */
   height: 60px; /* Tamaño del botón */
   border-radius: 50%; /* Hace que sea redondo */
-  background-color: #007bff; /* Fondo azul */
+  background-color: #007bff9f; /* Fondo azul */
   color: white; /* Color del icono */
   justify-content: center;
   align-items: center;
@@ -179,5 +179,37 @@ menu {
   }
 }
 
+article {
+  height: 160px
+}
 
 
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;500&display=swap');
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titulocard {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #212529;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #28a745;
+  font-size: larger;
+}
+
+.bg-green {background-color:#28a745;}
+
+.txt-gris {color: #707070;}
+
+legend {color: white;
+font-family: ;}

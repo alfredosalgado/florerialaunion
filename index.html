@@ -39,10 +39,10 @@
         <!-- Contenedor de los enlaces, alineado a la derecha -->
         <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
           <div class="navbar-nav w-100 d-flex justify-content-around">
-            <a class="nav-link" aria-current="page" href="#">Sobre nosotros</a>
+            <a class="nav-link" aria-current="page" href="./sn.html">Sobre nosotros</a>
             <a class="nav-link" href="#">Ramos de Flores</a>
-            <a class="nav-link" href="#">Preguntas frecuentes</a>
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="./pf.html">Preguntas frecuentes</a>
+            <a class="nav-link" href="./contacto.html">Contacto</a>
 
           </div>
         </div>
@@ -85,14 +85,14 @@
       </section>
       <article class="py-4">
         <!-- Carrusel de Bootstrap -->
-<div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="d-flex justify-content-center align-items-center">
         <div class="text-center">
           <i class="fas fa-heart fa-3x text-danger pb-2"></i>
           <h5>Servicio al Cliente dedicado</h5>
-          <p>Llámamos o háblanos por whatsapp de 9:30 am a 8 pm</p>
+          <p class="px-4">Llámamos o háblanos por whatsapp de 9:30 am a 8 pm</p>
         </div>
       </div>
     </div>
@@ -101,7 +101,7 @@
         <div class="text-center">
           <i class="fas fa-check-circle fa-3x text-success pb-2"></i>
           <h5>Satisfacción Garantizada</h5>
-          <p>Si no estás encantado con tu arreglo floral, lo solucionaremos.</p>
+          <p class="px-4">Si no estás encantado con tu arreglo floral, lo solucionaremos.</p>
         </div>
       </div>
     </div>
@@ -119,7 +119,7 @@
         <div class="text-center">
           <i class="fa-regular fa-clock fa-3x text-success pb-2"></i>
           <h5>Entregamos el mismo día</h5>
-          <p>La entrega puede tardar entre 2-4 horas en el mismo día.</p>
+          <p class="px-4">La entrega puede tardar entre 2-4 horas en el mismo día.</p>
         </div>
       </div>
     </div>
@@ -134,19 +134,116 @@
     </div>
     <!-- Agrega más items si es necesario -->
   </div>
-
-  <!-- Controles del carrusel (opcional) -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
-
       </article>
+      <main class="container my-4"><!--Aqui va la grilla con las cards dentro-->
+        <div class="row justify-content-center g-4"><!--centrado por si alguna grilla queda sola, y con gap entre ellas-->
+          <div class="col-12 col-md-6 col-lg-4"><!--Responsividad para celular, tablet y pc-->
+            <div class="card">
+              <img src="./assets/img/cupon-1.jpg" class="card-img-top" alt="card1">
+              <div class="card-body">
+                <h5 class="card-title titulocard">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
+                <p class="card-text txt-gris mb-0">Plumones Manolino</p>
+                <div class="d-flex">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p class="card-text ps-2 txt-gris">9191 Avenida Vitacura, Chile</p>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-end">
+                  <p class="card-text pt-1 txt-gris">$45.990</p>
+                  <p class="card-text ps-3 roboto-medium">$22.990</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4"><!--Responsividad para celular, tablet y pc-->
+            <div class="card">
+              <img src="./assets/img/cupon-2.jpg" class="card-img-top" alt="card2">
+              <div class="card-body">
+                <h5 class="card-title titulocard">Entrada para compartir + platos de fondo + postres + bebestibles</h5>
+                <p class="card-text txt-gris mb-0">V for Vegan</p>
+                <div class="d-flex">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p class="card-text ps-2 txt-gris">777 Jesse Pinkman, Chile</p>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-end">
+                  <p class="card-text pt-1 txt-gris">$30.990</p>
+                  <p class="card-text ps-3 roboto-medium">$12.990</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4"><!--Responsividad para celular, tablet y pc-->
+            <div class="card">
+              <img src="./assets/img/cupon-3.jpg" class="card-img-top" alt="card3">
+              <div class="card-body">
+                <h5 class="card-title titulocard">Evaluación integral + blanqueamiento dental led + limpieza + fluoración</h5>
+                <p class="card-text txt-gris mb-0">Clínica Dental Quijada</p>
+                <div class="d-flex">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p class="card-text ps-2 txt-gris">1342, Blanco Encalada, Chile</p>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-end">
+                  <p class="card-text pt-1 txt-gris">$300.000</p>
+                  <p class="card-text ps-3 roboto-medium">$25.990</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4"><!--Responsividad para celular, tablet y pc-->
+            <div class="card">
+              <img src="./assets/img/cupon-4.jpg" class="card-img-top" alt="card4">
+              <div class="card-body">
+                <h5 class="card-title titulocard">Colación para 2 personas + postre (no incluye bebidas)</h5>
+                <p class="card-text txt-gris mb-0">Suricata almacen</p>
+                <div class="d-flex">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p class="card-text ps-2 txt-gris">1071 Miguel Claro, Chile</p>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-end">
+                  <p class="card-text pt-1 txt-gris">$4.200</p>
+                  <p class="card-text ps-3 roboto-medium">$2.100</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4"><!--Responsividad para celular, tablet y pc-->
+            <div class="card">
+              <img src="./assets/img/cupon-5.jpg" class="card-img-top" alt="card5">
+              <div class="card-body">
+                <h5 class="card-title titulocard">1, 2 o 4 tickets para Stukids. Elige sucursal</h5>
+                <p class="card-text txt-gris mb-0">Stukids Centro de Eventos</p>
+                <div class="d-flex">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p class="card-text ps-2 txt-gris">133 El tranque, Chile</p>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-end">
+                  <p class="card-text pt-1 txt-gris">$4.000</p>
+                  <p class="card-text ps-3 roboto-medium">$2.500</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4"><!--Responsividad para celular, tablet y pc-->
+            <div class="card">
+              <img src="./assets/img/cupon-6.jpg" class="card-img-top" alt="card6">
+              <div class="card-body">
+                <h5 class="card-title titulocard">San Pedro de Atacama : 1 o 2 noches en alojamiento a elección</h5>
+                <p class="card-text txt-gris">D-Latam Travel</p>
+                <hr>
+                <div class="d-flex justify-content-end">
+                  <p class="card-text pt-1 txt-gris">$80.200</p>
+                  <p class="card-text ps-3 roboto-medium">$44.100</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </menu>
     <footer>
       
