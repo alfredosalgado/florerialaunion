@@ -1,6 +1,6 @@
 // main.js
 document.querySelector('.whatsapp-btn').addEventListener('click', function() {
-  const phone = '1234567890'; // Número de teléfono
+  const phone = '56920700893'; // Número de teléfono
   const message = 'Hola, estoy interesado en más información.'; // Mensaje predefinido
   window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
 });
