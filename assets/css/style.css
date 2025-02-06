@@ -39,7 +39,7 @@ menu {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.15); /* Fondo blanco con 20% de opacidad */
+  background-color: rgba(255, 255, 255, 0.0); /* Fondo blanco con 20% de opacidad */
   z-index: 1; /* Aseguramos que el fondo esté sobre la imagen, pero debajo del contenido */
 }
 
@@ -183,8 +183,6 @@ article {
   height: 160px
 }
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;500&display=swap');
 * {
   font-family: "Roboto", sans-serif;
@@ -211,5 +209,57 @@ article {
 
 .txt-gris {color: #707070;}
 
-legend {color: white;
-font-family: ;}
+
+/* Estilo personalizado para el botón "Ver más productos" */
+.btn-view-more {
+  background-color: #e91e63; /* Color rosado vibrante */
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 50px; /* Bordes redondeados */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  display: inline-flex;
+  align-items: center;
+  gap: 10px; /* Espacio entre el texto y el icono */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para resaltar el botón */
+}
+
+.btn-view-more:hover {
+  background-color: #d81b60; /* Color más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Efecto de agrandamiento sutil */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada en hover */
+}
+
+.btn-view-more i {
+  font-size: 1.2rem;
+}
+
+
+/* Estilo para las cards */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el agrandamiento y la sombra */
+  border: none; /* Eliminamos el borde predeterminado para un look más limpio */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil por defecto */
+  border-radius: 15px; /* Bordes ligeramente redondeados para suavizar el diseño */
+  overflow: hidden; /* Asegura que las imágenes no sobresalgan */
+}
+
+/* Efecto al pasar el mouse */
+.card:hover {
+  transform: scale(1.05); /* Agranda la card un 5% */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al hacer hover */
+}
+
+/* Estilo para las imágenes dentro de las cards */
+.card-img-top {
+  transition: transform 0.3s ease; /* Suaviza el efecto de la imagen */
+}
+
+/* Efecto sutil en la imagen al hacer hover */
+.card:hover .card-img-top {
+  transform: scale(1.05); /* La imagen también se agranda ligeramente */
+}
