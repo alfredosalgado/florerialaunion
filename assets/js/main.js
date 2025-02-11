@@ -79,8 +79,8 @@ function generateCards() {
     // Creamos la estructura de la card
     const card = `
       <div class="col-12 col-md-6 col-lg-4">
-        <div class="card">
-          <img src="${product.image}" class="card-img-top" alt="${product.title}">
+        <div class="card he">
+          <img src="${product.image}" class="card-img-top im" alt="${product.title}">
           <div class="card-body">
             <h5 class="card-title titulocard">${product.title}</h5>
             <p class="card-text txt-gris mb-0">${product.description}</p>
@@ -120,12 +120,12 @@ function generateCards() {
 
     // Estructura de la card con el botón de WhatsApp
     const card = `
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
         <div class="card">
-          <img src="${product.image}" class="card-img-top" alt="${product.title}">
+          <img src="${product.image}" class="card-img-top im" alt="${product.title}">
           <div class="card-body">
-            <h5 class="card-title titulocard">${product.title}</h5>
-            <p class="card-text txt-gris mb-0">${product.description}</p>
+            <h5 class="card-title titulocard tituloc">${product.title}</h5>
+            <p class="card-text txt-gris mb-0 ctext">${product.description}</p>
             <hr>
             <div class="d-flex justify-content-between align-items-center">
               <p class="card-text ps-3 roboto-medium">${product.price}</p>

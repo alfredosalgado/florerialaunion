@@ -210,7 +210,7 @@ const products = [
     image: "./assets/img/arreglos/29.jpeg"
   },
   {
-    title: "30.- Ramo buchón Rosas blancas + rojas + chocolates Ferrero Roche",
+    title: "30.- Ramo buchón Rosas blancas + rojas + chocolates Ferrero R.",
     description: "Ramo buchón con Rosas blancas y Rojas, chocolates Ferrero Roche. ideal para regalo de cumpleaños san Valentín fecha especial aniversario.",
     price: "$130.000",
     image: "./assets/img/arreglos/30.jpeg"
