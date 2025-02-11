@@ -6,8 +6,6 @@ document.querySelector('.whatsapp-btn').addEventListener('click', function() {
 });
 
 
-// main.js o directamente en el archivo <script> de tu HTML
-
 // Obtén el botón de "Subir"
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
