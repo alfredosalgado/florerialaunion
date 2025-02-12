@@ -306,3 +306,11 @@ article {
 .tituloc {
   height: 3rem;
 }
+
+.card {
+  width: 100%;
+}
+
+.valor {
+  font-weight: bold;
+}
