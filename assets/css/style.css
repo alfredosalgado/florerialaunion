@@ -314,3 +314,7 @@ article {
 .valor {
   font-weight: bold;
 }
+
+.text-justify {
+  text-align: justify;
+}
