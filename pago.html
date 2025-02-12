@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmar Pago</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome para el icono de WhatsApp -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  <!-- Tu CSS personalizado -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+  <main class="container my-5">
+    <!-- Sección de Información Bancaria -->
+    <div class="text-center mb-4">
+      <h2>Datos para la Transferencia Bancaria</h2>
+      <p>Por favor, realiza la transferencia a la siguiente cuenta:</p>
+      <ul class="list-unstyled">
+        <li><strong>Banco:</strong> Banco Estado</li>
+        <li><strong>Cuenta:</strong> 32460586169</li>
+        <li><strong>Tipo de cuenta:</strong> Cuenta Ahorro</li>
+        <li><strong>Nombre:</strong> Lorena Isabel Itas</li>
+        <li><strong>RUT:</strong> 27.531.124-3</li>
+        <li><strong>Email:</strong> lorehitaz@gmail.com</li>
+      </ul>
+    </div>
+
+    <!-- Sección de la Card del Producto Seleccionado -->
+    <div id="selected-product-container" class="row justify-content-center g-4">
+      <!-- La card del producto seleccionado se generará dinámicamente aquí -->
+    </div>
+
+    <!-- Botón para Confirmar el Pago -->
+    <div class="text-center mt-4">
+      <button id="confirm-payment" class="btn btn-whatsapp">
+        <i class="fab fa-whatsapp"></i> Ya hice el pago
+      </button>
+    </div>
+  </main>
+
+  <!-- Bootstrap JS Bundle (Incluye Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Archivo JavaScript para la página de pago -->
+  <script src="./assets/js/pago.js"></script>
+
+</body>
+</html>

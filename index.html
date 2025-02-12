@@ -40,14 +40,25 @@
         <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
           <div class="navbar-nav w-100 d-flex justify-content-around">
             <a class="nav-link" aria-current="page" href="./sn.html">Sobre nosotros</a>
-            <a class="nav-link" href="./productos.html">Ramos de Flores</a>
+            
+            <!-- Dropdown para Ramos de Flores -->
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Ramos de Flores
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./productos.html">Todos los Ramos</a></li>
+                <li><a class="dropdown-item" href="./arreglosfunebres.html">Ramos Fúnebres</a></li>
+              </ul>
+            </div>
+    
             <a class="nav-link" href="./pf.html">Preguntas frecuentes</a>
             <a class="nav-link" href="./contacto.html">Contacto</a>
-
           </div>
         </div>
       </div>
     </nav>
+    
     <menu class="container">
       <section id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="10000" data-bs-pause="false">
         <div class="carousel-inner">

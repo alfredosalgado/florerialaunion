@@ -223,9 +223,7 @@ function generateCards() {
   const container = document.getElementById('product-container');
 
   products.forEach(product => {
-    const whatsappMessage = `Me gustaría comprar el ${product.title} que tiene un valor de ${product.price}. Aquí está el arreglo: ${window.location.origin}/${product.image}`;
-    const encodedMessage = encodeURIComponent(whatsappMessage);
-    const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+    const paymentLink = `pago.html?title=${encodeURIComponent(product.title)}&price=${encodeURIComponent(product.price)}&image=${encodeURIComponent(product.image)}`;
 
     const card = `
       <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
@@ -237,7 +235,7 @@ function generateCards() {
             <hr>
             <div class="d-flex justify-content-between align-items-center hprice">
               <p class="card-text ps-3 roboto-medium">${product.price}</p>
-              <a href="${whatsappLink}" class="btn btn-whatsapp" target="_blank">
+              <a href="${paymentLink}" class="btn btn-whatsapp">
                 <i class="fab fa-whatsapp"></i> Lo quiero
               </a>
             </div>
