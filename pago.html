@@ -15,7 +15,45 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+  <header class="bg-secondary text-light container-flex">
+    <div class="container d-flex flex-wrap py-2 justify-content-around">
+      <div>
+        <p><i class="fa-solid fa-phone"></i>  +56 920700893 - +56 947121402</p>
+      </div>
+      <div>
+        <p><i class="fa-solid fa-envelope"></i> estrellavictorianavadumas@gmail.com</p>
+      </div>
+    </div>
+    <nav class="bgnav py-0">
+      <div class="container d-flex justify-content-around align-items-center">
+        <div class="navf"><img src="./assets/img/navflower.JPG" alt="" height="100"></div>
+        <a class="navbar-brand py-2" href="./index.html">
+          <img src="./assets/img/logo2.jpeg" class="rounded-circle" alt="Bootstrap" width="130" height="130">
+        </a>
+        <div class="navf">
+          <img src="./assets/img/navflower2.jpg" alt="" height="100">
+        </div>
+      </div>
+    </nav>
+  </header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sha">
+    <div class="container-fluid">
+      <!-- Botón hamburguesa alineado a la derecha -->
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Contenedor de los enlaces, alineado a la derecha -->
+      <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
+        <div class="navbar-nav w-100 d-flex justify-content-around">
+          <a class="nav-link" href="./index.html">Inicio</a>
+          <a class="nav-link" aria-current="page" href="./sn.html">Sobre nosotros</a>
+          <a class="nav-link" href="./pf.html">Preguntas Frecuentes</a>
+          <a class="nav-link" href="./contacto.html">Contacto</a>
 
+        </div>
+      </div>
+    </div>
+  </nav>
   <main class="container my-5">
     <!-- Sección de Información Bancaria -->
     <div class="text-center mb-4">
@@ -43,6 +81,16 @@
       </button>
     </div>
   </main>
+
+<!-- Botón de WhatsApp -->
+<a href="https://wa.me/1234567890" class="whatsapp-btn" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+</a>
+
+<!-- Botón de subir -->
+<a href="#top" class="scroll-to-top-btn" id="scrollToTopBtn">
+  <i class="fas fa-arrow-up"></i> <!-- Icono de flecha hacia arriba -->
+</a>
 
   <!-- Bootstrap JS Bundle (Incluye Popper) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

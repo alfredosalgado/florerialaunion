@@ -215,6 +215,18 @@ const products = [
     price: "$130.000",
     image: "./assets/img/arreglos/30.jpeg"
   },
+  {
+    title: "31.- Ramo buchón",
+    description: "Ramo buchón con Rosas blancas y Rojas, chocolates Ferrero Roche. ideal para regalo de cumpleaños san Valentín fecha especial aniversario.",
+    price: "$300.000",
+    image: "./assets/img/arreglos/31.jpeg"
+  },
+  {
+    title: "31.- Caja de Corazón 25 Rosas azules + Chocolates Ferrero R.",
+    description: "Caja de corazón con 25 rosas azules frescas  de alta calidad  y chocolates Ferrero Rocher ideal para hombres.",
+    price: "$185.000",
+    image: "./assets/img/arreglos/32.jpeg"
+  },
   // Agrega más productos aquí hasta completar los 20 productos
 ];
 
