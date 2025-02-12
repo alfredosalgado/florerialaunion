@@ -71,54 +71,13 @@ const products = [
   }
 ];
 
-// Función para generar las cards
+// Funcíon para generar las cards
 function generateCards() {
   const container = document.getElementById('product-container');
 
   products.forEach(product => {
-    // Creamos la estructura de la card
-    const card = `
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card he">
-          <img src="${product.image}" class="card-img-top im" alt="${product.title}">
-          <div class="card-body">
-            <h5 class="card-title titulocard">${product.title}</h5>
-            <p class="card-text txt-gris mb-0">${product.description}</p>
-            <hr>
-            <div class="d-flex justify-content-end">
-              <p class="card-text ps-3 roboto-medium">${product.price}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    `;
-    // Insertamos la card en el contenedor
-    container.innerHTML += card;
-  });
-}
+    const paymentLink = `pago.html?title=${encodeURIComponent(product.title)}&price=${encodeURIComponent(product.price)}&image=${encodeURIComponent(product.image)}`;
 
-// Ejecutamos la función al cargar la página
-document.addEventListener('DOMContentLoaded', generateCards);
-
-// Número de WhatsApp al que llegarán los mensajes
-const whatsappNumber = "56920700893";  // Cambia este número por el tuyo, sin el + y sin ceros iniciales
-
-// Función para generar las cards
-function generateCards() {
-  const container = document.getElementById('product-container');
-
-  products.forEach(product => {
-    // Generar el mensaje para WhatsApp
-    const whatsappMessage = `Me gustaría comprar el ${product.title} que tiene un valor de ${product.price}. Aquí está el arreglo: ${window.location.origin}/${product.image}`;
-
-    
-    // Codificar el mensaje para que sea válido en la URL
-    const encodedMessage = encodeURIComponent(whatsappMessage);
-
-    // URL de WhatsApp con mensaje prellenado
-    const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
-
-    // Estructura de la card con el botón de WhatsApp
     const card = `
       <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
         <div class="card">
@@ -129,7 +88,7 @@ function generateCards() {
             <hr>
             <div class="d-flex justify-content-between align-items-center">
               <p class="card-text ps-3 roboto-medium">${product.price}</p>
-              <a href="${whatsappLink}" class="btn btn-whatsapp" target="_blank">
+              <a href="${paymentLink}" class="btn btn-whatsapp">
                 <i class="fab fa-whatsapp"></i> Lo quiero
               </a>
             </div>
@@ -138,11 +97,11 @@ function generateCards() {
       </div>
     `;
 
-    // Insertamos la card en el contenedor
     container.innerHTML += card;
   });
 }
 
 // Ejecutamos la función al cargar la página
 document.addEventListener('DOMContentLoaded', generateCards);
+
 

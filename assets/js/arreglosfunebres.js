@@ -47,12 +47,10 @@ function generateFuneralCards() {
   const container = document.getElementById('funeral-arrangements-container');
 
   funeralArrangements.forEach(arrangement => {
-    const whatsappMessage = `Me gustaría comprar el ${arrangement.title} que tiene un valor de ${arrangement.price}.`;
-    const encodedMessage = encodeURIComponent(whatsappMessage);
-    const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+    const paymentLink = `pago.html?title=${encodeURIComponent(arrangement.title)}&price=${encodeURIComponent(arrangement.price)}&image=${encodeURIComponent(arrangement.image)}`;
 
     const card = `
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
         <div class="card">
           <img src="${arrangement.image}" class="card-img-top" alt="${arrangement.title}">
           <div class="card-body">
@@ -61,7 +59,7 @@ function generateFuneralCards() {
             <hr>
             <div class="d-flex justify-content-between align-items-center">
               <p class="card-text ps-3 roboto-medium">${arrangement.price}</p>
-              <a href="${whatsappLink}" class="btn btn-whatsapp" target="_blank">
+              <a href="${paymentLink}" class="btn btn-whatsapp">
                 <i class="fab fa-whatsapp"></i> Lo quiero
               </a>
             </div>
