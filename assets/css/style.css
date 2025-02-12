@@ -318,3 +318,9 @@ article {
 .text-justify {
   text-align: justify;
 }
+
+.bg-insta {
+  background: linear-gradient(to right, #ffba00, #ff0067);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
