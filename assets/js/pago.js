@@ -63,7 +63,7 @@ function generateSelectedProductCard(product) {
 
 // Función para enviar el mensaje de confirmación a WhatsApp
 function confirmPayment(product) {
-  const whatsappMessage = `Hola, ya he realizado el pago para el producto: ${product.title} con un valor de ${product.price}.`;
+  const whatsappMessage = `Hola, ya he realizado el pago para el producto: ${product.title} con un valor de ${product.price}. Aquí está la imagen del producto: ${window.location.origin}/${product.image}`;
   const encodedMessage = encodeURIComponent(whatsappMessage);
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
