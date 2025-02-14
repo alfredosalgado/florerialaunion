@@ -34,41 +34,59 @@ scrollToTopBtn.addEventListener("click", function (event) {
 // Array de productos
 const products = [
   {
-    title: "Ramo de mano de lujo",
-    description: "Diseñado con tres rosas rojas de alta calidad y un girasol impresionante, complementado con un toque de elegancia de Gibson.",
-    price: "$18.000",
-    image: "./assets/img/arreglos/1.jpeg"
+    title: "Caja de corazón llena de detalles románticos.",
+    description: "Un ramo de 8 rosas rojas frescas y una selección de 14 deliciosos bombones Ferrero Rocher.",
+    price: "$60.000",
+    image: "./assets/img/arreglos/35.jpeg"
   },
   {
-    title: "Ramo de mano sublime",
-    description: "Compuesto por 2 rosas rojas de intensa pasión y un girasol radiante, complementado con un toque astral que evoca la belleza del universo.",
-    price: "$15.000",
-    image: "./assets/img/arreglos/2.jpeg"
+    title: "Caja de corazones con 7 Girasoles y 20 rosas rojas",
+    description: "Hermosa caja de corazones con 7 Girasoles y 20 rosas rojas frescas y seleccionadas de la mejor calidad regalo especial para expresar tu amor a ese ser amado.",
+    price: "$90.000",
+    image: "./assets/img/arreglos/36.jpeg"
   },
   {
-    title: "Ramo de mano en escalera",
-    description: "Hermoso ramo de mano hecho en escalera con 5 rosas rojas más astromelia y Aster.",
-    price: "$20.000",
-    image: "./assets/img/arreglos/3.jpeg"
+    title: "Caja de Corazon San Valentin",
+    description: "Esta caja de corazón es el regalo perfecto para San Valentín, contiene  14 Girasoles frascos y 14 hermosas rosas.",
+    price: "$75.000",
+    image: "./assets/img/arreglos/37.jpeg"
   },
   {
-    title: "Ramo de mano sorpresa",
-    description: "Ramo de mano hecho con una rosa roja más un girasol y Aster, lindo detalle para sorprender un ser querido.",
-    price: "$12.000",
-    image: "./assets/img/arreglos/4.jpeg"
+    title: "Caja floral de rosas rojas",
+    description: "Hermosa caja floral de rosas rojas acompañas de gibson y una hermosa cinta roja que evoca elegancia.",
+    price: "$75.000",
+    image: "./assets/img/arreglos/38.jpeg"
   },
   {
-    title: "Ramo de mano con 2 girasoles y Gibson",
-    description: "",
-    price: "$12.000",
-    image: "./assets/img/arreglos/5.jpeg"
+    title: "Ramo de Rosas rosadas + Girasol + Gibson.",
+    description: "Hermoso ramo de Rosas rosadas un girasol y Gibson.",
+    price: "$64.000",
+    image: "./assets/img/arreglos/40.jpeg"
   },
   {
-    title: "Arreglo floral de lujo",
-    description: "Combina la belleza etérea de tres rosas blancas con el aroma revitalizante del eucalipto, ideal para ocasiones especiales.",
-    price: "$15.000",
-    image: "./assets/img/arreglos/6.jpeg"
-  }
+    title: "Arreglo floral de rosas surtidas + Girasoles + Follaje verde",
+    description: "Arreglo floral de rosas surtidas en rojo y naranja acompañas de girasoles y follaje Verde.",
+    price: "$64.000",
+    image: "./assets/img/arreglos/41.jpeg"
+  },
+  {
+    title: "Ramo de rosas amarillas + Gibson blancas",
+    description: "Ramo de rosas amarillas elegancia y sofisticación acompañas de Gibson blancas.",
+    price: "$80.000",
+    image: "./assets/img/arreglos/42.jpeg"
+  },
+  {
+    title: "Ramo de Buchón San Valentín",
+    description: "Este ramo de buchón es el regalo perfecto para San Valentín, aniversarios o cualquier ocasión en la que desees expresar tu amor y cariño.",
+    price: "$200.000",
+    image: "./assets/img/arreglos/46.jpeg"
+  },
+  {
+    title: "Arreglos floral con chocolate",
+    description: "Arreglos floral con chocolate 🍫 Ferrero Rocher san Valentín",
+    price: "$70.000",
+    image: "./assets/img/arreglos/47.jpeg"
+  },
 ];
 
 // Funcíon para generar las cards

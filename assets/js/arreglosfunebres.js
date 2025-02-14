@@ -132,18 +132,7 @@ const funeralArrangements = [
     price: "$100.000",
     image: "./assets/img/arreglosfunebres/16.jpeg"
   },
-  {
-    title: "Arreglo Fúnebre 17",
-    description: "",
-    price: "$45.000",
-    image: "./assets/img/arreglosfunebres/17.jpeg"
-  },
-  {
-    title: "Arreglo Fúnebre 18",
-    description: "",
-    price: "Desde $19.000",
-    image: "./assets/img/arreglosfunebres/18.jpeg"
-  },
+  
   // Puedes agregar más arreglos fúnebres aquí
 ];
 

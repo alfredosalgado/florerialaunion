@@ -222,10 +222,28 @@ const products = [
     image: "./assets/img/arreglos/31.jpeg"
   },
   {
-    title: "31.- Caja de Corazón 25 Rosas azules + Chocolates Ferrero R.",
+    title: "32.- Caja de Corazón 25 Rosas azules + Chocolates Ferrero R.",
     description: "Caja de corazón con 25 rosas azules frescas  de alta calidad  y chocolates Ferrero Rocher ideal para hombres.",
     price: "$185.000",
     image: "./assets/img/arreglos/32.jpeg"
+  },
+  {
+    title: "33.- Arreglo",
+    description: "",
+    price: "$45.000",
+    image: "./assets/img/arreglos/33.jpeg"
+  },
+  {
+    title: "34.- Arreglo",
+    description: "",
+    price: "Desde $19.000",
+    image: "./assets/img/arreglos/34.jpeg"
+  },
+  {
+    title: "34.- Arreglo",
+    description: "",
+    price: "Desde $19.000",
+    image: "./assets/img/arreglos/34.jpeg"
   },
   // Agrega más productos aquí hasta completar los 20 productos
 ];
