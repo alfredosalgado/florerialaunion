@@ -239,12 +239,6 @@ const products = [
     price: "Desde $19.000",
     image: "./assets/img/arreglos/34.jpeg"
   },
-  {
-    title: "34.- Arreglo",
-    description: "",
-    price: "Desde $19.000",
-    image: "./assets/img/arreglos/34.jpeg"
-  },
   // Agrega más productos aquí hasta completar los 20 productos
 ];
 
