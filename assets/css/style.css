@@ -25,11 +25,13 @@ menu {
 /*---------------------------*/
 
 
+
 /*CARRUSEL DE IMAGENES*/
 .carousel-item {
   position: relative; /* Para que la imagen se posicione absolutamente */
   overflow: hidden; /* Ocultamos cualquier parte de la imagen que se salga del contenedor */
   height: 450px; /* O la altura que desees para tu carrusel */
+  margin-right: ;
 }
 
 .carousel-item::before {
@@ -325,4 +327,8 @@ article {
   background: linear-gradient(to right, #ffba00, #ff0067);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.asd {
+  height: 200px;
 }
