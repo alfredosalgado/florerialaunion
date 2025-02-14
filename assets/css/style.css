@@ -157,6 +157,7 @@ menu {
   transition: all 0.3s ease; /* Suaviza las transiciones */
   font-size: 24px; /* Tamaño del icono */
   cursor: pointer; /* Cambia el cursor a mano cuando pasa sobre el botón */
+  position: fixed;
 }
 /* Efecto hover para resaltar el botón */
 .scroll-to-top-btn:hover {
@@ -277,6 +278,7 @@ article {
   align-items: center;
   gap: 8px; /* Espacio entre el icono y el texto */
   transition: all 0.3s ease;
+  position: fixed;
 }
 
 /* Efecto al pasar el mouse */
