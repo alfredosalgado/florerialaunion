@@ -171,20 +171,6 @@ menu {
 }
 /*----------------------------------------------------*/
 
-/*MEDIA QUERYS*/
-/* Media query para pantallas más pequeñas (móviles) */
-@media (max-width: 768px) {
-  .carousel-item {
-    height: 300px; /* Ajustamos la altura para vista móvil */
-  }
-  .navf {
-    display: none;
-  }
-}
-
-@media
-/*--------------------------------------------------------*/
-
 article {
   height: 160px
 }
@@ -194,13 +180,6 @@ article {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
-}
-
-.titulocard {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color: #212529;
 }
 
 .roboto-medium {
@@ -307,6 +286,9 @@ article {
 
 .tituloc {
   height: 4rem;
+  font-family: "Roboto", sans-serif;
+  color: #212529;
+  font-size: 1rem;
 }
 
 .card {
@@ -330,3 +312,25 @@ article {
 .asd {
   height: 200px;
 }
+
+
+
+/*MEDIA QUERYS*/
+/* Media query para pantallas más pequeñas (móviles) */
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 300px; /* Ajustamos la altura para vista móvil */
+  }
+  .navf {
+    display: none;
+  }
+  .tituloc {
+    height: 4rem;
+  }
+  .im {
+    height: 12rem;
+  }
+}
+
+@media
+/*--------------------------------------------------------*/
