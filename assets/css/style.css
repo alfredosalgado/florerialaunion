@@ -252,12 +252,12 @@ article {
 
 /* Estilo para el botón Lo Quiero */
 .btn-whatsapp {
-  background-color: #d06bdd; /* Color verde de WhatsApp */
-  color: white;
+  background-color: #fff5f3; /* Color verde de WhatsApp */
+  color: #b14549;
   border-radius: 25px;
   font-weight: bold;
   text-decoration: none;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   display: inline-flex;
   align-items: center;
   transition: all 0.3s ease;
@@ -265,7 +265,8 @@ article {
 
 /* Efecto al pasar el mouse */
 .btn-whatsapp:hover {
-  background-color: #bf38d1; /* Verde más oscuro al pasar el mouse */
+  background-color: #aa363b; /* Verde más oscuro al pasar el mouse */
+  color: #ffffff;
   transform: scale(1.05); /* Agranda ligeramente el botón */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el efecto flotante */
 }

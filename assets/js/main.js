@@ -106,7 +106,7 @@ function generateCards() {
             <div class="d-flex justify-content-center align-items-center">
               <p class="card-text roboto-medium">${product.price}</p>
             </div>
-            <div class="d-flex justify-content-center align-items-center pt-1">
+            <div class="d-flex justify-content-center align-items-center pt-2">
             <a href="${paymentLink}" class="btn btn-whatsapp">
                 Lo quiero
               </a>
