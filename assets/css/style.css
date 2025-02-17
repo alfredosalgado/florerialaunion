@@ -3,7 +3,7 @@
 * {
   font-family: "Urbanist", serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -325,6 +325,11 @@ article {
 
 .bg-uniondark {
   background-color: #f3a799;
+}
+
+.bg-darkk {
+  background-color: rgba(0, 0, 0, 0.301);
+  width: 100%;
 }
 
 
