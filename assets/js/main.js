@@ -64,7 +64,7 @@ const products = [
     image: "./assets/img/arreglos/40.jpeg"
   },
   {
-    title: "Arreglo floral de rosas surtidas + Girasoles + Follaje verde",
+    title: "Arreglo floral de rosas surtidas + Girasoles",
     description: "Arreglo floral de rosas surtidas en rojo y naranja acompañas de girasoles y follaje Verde.",
     price: "$64.000",
     image: "./assets/img/arreglos/41.jpeg"
@@ -101,11 +101,13 @@ function generateCards() {
         <div class="card">
           <img src="${product.image}" class="card-img-top im" alt="${product.title}">
           <div class="card-body">
-            <h5 class="card-title titulocard tituloc">${product.title}</h5>
+            <h5 class="card-title tituloc">${product.title}</h5>
             <hr>
-            <div class="d-flex justify-content-between align-items-center">
-              <p class="card-text">${product.price}</p>
-              <a href="${paymentLink}" class="btn btn-whatsapp">
+            <div class="d-flex justify-content-center align-items-center">
+              <p class="card-text roboto-medium">${product.price}</p>
+            </div>
+            <div class="d-flex justify-content-center align-items-center pt-1">
+            <a href="${paymentLink}" class="btn btn-whatsapp">
                 Lo quiero
               </a>
             </div>

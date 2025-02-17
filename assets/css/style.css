@@ -185,13 +185,10 @@ article {
 .roboto-medium {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
-  font-size: 2rem;
+  font-size: 0.8rem;
   font-style: normal;
   color: #28a745;
-  font-size: larger;
 }
-
-.bg-green {background-color:#28a745;}
 
 .txt-gris {color: #707070;}
 
@@ -251,23 +248,22 @@ article {
 }
 
 
-/* Estilo para el botón de WhatsApp */
+/* Estilo para el botón Lo Quiero */
 .btn-whatsapp {
-  background-color: #25D366; /* Color verde de WhatsApp */
+  background-color: #d06bdd; /* Color verde de WhatsApp */
   color: white;
   border-radius: 25px;
   font-weight: bold;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   display: inline-flex;
   align-items: center;
-  gap: 8px; /* Espacio entre el icono y el texto */
   transition: all 0.3s ease;
 }
 
 /* Efecto al pasar el mouse */
 .btn-whatsapp:hover {
-  background-color: #1ebe5d; /* Verde más oscuro al pasar el mouse */
+  background-color: #bf38d1; /* Verde más oscuro al pasar el mouse */
   transform: scale(1.05); /* Agranda ligeramente el botón */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el efecto flotante */
 }
@@ -288,7 +284,7 @@ article {
   height: 4rem;
   font-family: "Roboto", sans-serif;
   color: #212529;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .card {
@@ -325,10 +321,10 @@ article {
     display: none;
   }
   .tituloc {
-    height: 4rem;
+    height: 2rem;
   }
   .im {
-    height: 12rem;
+    height: 10rem;
   }
 }
 
