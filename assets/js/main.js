@@ -97,17 +97,16 @@ function generateCards() {
     const paymentLink = `pago.html?title=${encodeURIComponent(product.title)}&price=${encodeURIComponent(product.price)}&image=${encodeURIComponent(product.image)}`;
 
     const card = `
-      <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+      <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
         <div class="card">
           <img src="${product.image}" class="card-img-top im" alt="${product.title}">
           <div class="card-body">
             <h5 class="card-title titulocard tituloc">${product.title}</h5>
-            <p class="card-text txt-gris mb-0 ctext">${product.description}</p>
             <hr>
             <div class="d-flex justify-content-between align-items-center">
-              <p class="card-text ps-3 roboto-medium">${product.price}</p>
+              <p class="card-text">${product.price}</p>
               <a href="${paymentLink}" class="btn btn-whatsapp">
-                <i class="fab fa-whatsapp"></i> Lo quiero
+                Lo quiero
               </a>
             </div>
           </div>
