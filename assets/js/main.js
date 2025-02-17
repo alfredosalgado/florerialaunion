@@ -102,7 +102,7 @@ function generateCards() {
           <img src="${product.image}" class="card-img-top im" alt="${product.title}">
           <div class="card-body">
             <h5 class="card-title tituloc">${product.title}</h5>
-            <hr>
+        
             <div class="d-flex justify-content-center align-items-center">
               <p class="card-text roboto-medium">${product.price}</p>
             </div>
