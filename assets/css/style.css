@@ -312,7 +312,7 @@ article {
 }
 
 .bgrosado {
-  background-color: #f1516462;
+  background-color: #f151644f;
   ;
 }
 
@@ -344,6 +344,14 @@ article {
 .item {
   font-size: 0.8rem;
   padding-bottom: 1rem;
+}
+
+.bgfoot {
+  background-color: #b76db5;
+}
+
+.hp {
+  color: black;
 }
 
 
