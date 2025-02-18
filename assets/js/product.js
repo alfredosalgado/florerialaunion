@@ -250,17 +250,23 @@ function generateCards() {
     const paymentLink = `pago.html?title=${encodeURIComponent(product.title)}&price=${encodeURIComponent(product.price)}&image=${encodeURIComponent(product.image)}`;
 
     const card = `
-      <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-        <div class="card he">
+      <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+        <div class="card">
           <img src="${product.image}" class="card-img-top im" alt="${product.title}">
           <div class="card-body">
-            <h5 class="card-title titulocard tituloc">${product.title}</h5>
-            <p class="card-text txt-gris mb-0 ctext">${product.description}</p>
-            <hr>
-            <div class="d-flex justify-content-between align-items-center hprice">
-              <p class="card-text ps-3 roboto-medium">${product.price}</p>
-              <a href="${paymentLink}" class="btn btn-whatsapp">
-                <i class="fab fa-whatsapp"></i> Lo quiero
+            <h5 class="card-title tituloc">${product.title}</h5>
+            <details class="item1">
+              <summary class="item  text-center">Descripción:</summary>
+              <div>
+                <p class="card-text txt-gris mb-0 ctext">${product.description}</p>
+              </div>
+            </details>
+            <div class="d-flex justify-content-center align-items-center">
+              <p class="card-text roboto-medium">${product.price}</p>
+            </div>
+            <div class="d-flex justify-content-center align-items-center pt-2">
+            <a href="${paymentLink}" class="btn btn-whatsapp">
+                Lo quiero
               </a>
             </div>
           </div>

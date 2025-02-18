@@ -144,17 +144,17 @@ function generateFuneralCards() {
     const paymentLink = `pago.html?title=${encodeURIComponent(arrangement.title)}&price=${encodeURIComponent(arrangement.price)}&image=${encodeURIComponent(arrangement.image)}`;
 
     const card = `
-      <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+      <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
         <div class="card">
           <img src="${arrangement.image}" class="card-img-top im" alt="${arrangement.title}">
           <div class="card-body">
-            <h5 class="card-title titulocard">${arrangement.title}</h5>
-            <p class="card-text txt-gris mb-0">${arrangement.description}</p>
-            <hr>
-            <div class="d-flex justify-content-between align-items-center">
-              <p class="card-text ps-3 roboto-medium">${arrangement.price}</p>
-              <a href="${paymentLink}" class="btn btn-whatsapp">
-                <i class="fab fa-whatsapp"></i> Lo quiero
+            <h5 class="card-title tituloc">${arrangement.title}</h5>
+            <div class="d-flex justify-content-center align-items-center">
+              <p class="card-text roboto-medium">${arrangement.price}</p>
+            </div>
+            <div class="d-flex justify-content-center align-items-center pt-2">
+            <a href="${paymentLink}" class="btn btn-whatsapp">
+                Lo quiero
               </a>
             </div>
           </div>
@@ -165,6 +165,8 @@ function generateFuneralCards() {
     container.innerHTML += card;
   });
 }
+// <p class="card-text txt-gris mb-0">${arrangement.description}</p>
+
 
 // Ejecutamos la función al cargar la página
 document.addEventListener('DOMContentLoaded', generateFuneralCards);

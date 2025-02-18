@@ -189,10 +189,9 @@ article {
   font-weight: 400;
   font-size: 0.8rem;
   font-style: normal;
-  color: #28a745;
+  color: #b7b110;
 }
 
-.txt-gris {color: #707070;}
 
 
 /* Estilo personalizado para el botón "Ver más productos" */
@@ -252,8 +251,8 @@ article {
 
 /* Estilo para el botón Lo Quiero */
 .btn-whatsapp {
-  background-color: #fff5f3; /* Color verde de WhatsApp */
-  color: #b14549;
+  background-color: #b7b110; /* Color verde de WhatsApp */
+  color: white;
   border-radius: 25px;
   font-weight: bold;
   text-decoration: none;
@@ -265,7 +264,7 @@ article {
 
 /* Efecto al pasar el mouse */
 .btn-whatsapp:hover {
-  background-color: #aa363b; /* Verde más oscuro al pasar el mouse */
+  background-color: #db3873; /* Verde más oscuro al pasar el mouse */
   color: #ffffff;
   transform: scale(1.05); /* Agranda ligeramente el botón */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el efecto flotante */
@@ -280,7 +279,8 @@ article {
 }
 
 .ctext {
-  height: 7rem;
+  height: rem;
+  padding-bottom: 1rem;
 }
 
 .tituloc {
@@ -312,7 +312,7 @@ article {
 }
 
 .bgrosado {
-  background-color: #fef3f1;
+  background-color: #f1516462;
   ;
 }
 
@@ -324,12 +324,26 @@ article {
 }
 
 .bg-uniondark {
-  background-color: #f3a799;
+  background-color: #d93572;
+}
+
+.bg-nav {
+  background-color: #b5b401;
 }
 
 .bg-darkk {
   background-color: rgba(0, 0, 0, 0.301);
   width: 100%;
+}
+
+.txt-gris {
+  color: #707070;
+  font-size: 0.8rem;
+}
+
+.item {
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
 }
 
 
@@ -343,7 +357,8 @@ article {
     display: none;
   }
   .tituloc {
-    height: 3rem;
+    height: 2.5rem;
+    
   }
   .im {
     height: 10rem;
