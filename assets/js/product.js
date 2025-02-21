@@ -239,6 +239,102 @@ const products = [
     price: "Desde $19.000",
     image: "./assets/img/arreglos/34.jpeg"
   },
+  {
+    title: "35.- Caja de corazón llena de detalles románticos.",
+    description: "",
+    price: "Desde $60.000",
+    image: "./assets/img/arreglos/35.jpeg"
+  },
+  {
+    title: "36.- Caja de corazones con 7 Girasoles y 20 rosas rojas",
+    description: "",
+    price: "Desde $90.000",
+    image: "./assets/img/arreglos/36.jpeg"
+  },
+  {
+    title: "37.- Caja de Corazon San Valentin",
+    description: "",
+    price: "Desde $75.000",
+    image: "./assets/img/arreglos/37.jpeg"
+  },
+  {
+    title: "38.- Caja floral de rosas rojas",
+    description: "",
+    price: "Desde $75.000",
+    image: "./assets/img/arreglos/38.jpeg"
+  },
+  {
+    title: "39.- Arreglo",
+    description: "",
+    price: "Desde $88.000",
+    image: "./assets/img/arreglos/39.jpeg"
+  },
+  {
+    title: "40.- Ramo de Rosas rosadas + Girasol + Gibson.",
+    description: "",
+    price: "Desde $64.000",
+    image: "./assets/img/arreglos/40.jpeg"
+  },
+  {
+    title: "41.- Arreglo floral de rosas surtidas + Girasoles",
+    description: "",
+    price: "Desde $64.000",
+    image: "./assets/img/arreglos/41.jpeg"
+  },
+  {
+    title: "42.- Ramo de rosas amarillas + Gibson blancas",
+    description: "",
+    price: "Desde $80.000",
+    image: "./assets/img/arreglos/42.jpeg"
+  },
+  {
+    title: "43.- Arreglo",
+    description: "",
+    price: "Desde $190.000",
+    image: "./assets/img/arreglos/43.jpeg"
+  },
+  {
+    title: "44.- Arreglo",
+    description: "",
+    price: "Desde $40.000",
+    image: "./assets/img/arreglos/44.jpeg"
+  },
+  {
+    title: "45.- Arreglo",
+    description: "",
+    price: "Desde $190.000",
+    image: "./assets/img/arreglos/45.jpeg"
+  },
+  {
+    title: "46.- Ramo de Buchón San Valentín",
+    description: "",
+    price: "Desde $200.000",
+    image: "./assets/img/arreglos/46.jpeg"
+  },
+  {
+    title: "47.- Arreglos floral con chocolate",
+    description: "",
+    price: "Desde $70.000",
+    image: "./assets/img/arreglos/47.jpeg"
+  },
+  {
+    title: "48.- Canasto surtido Rosas y Lilium",
+    description: "",
+    price: "Desde $78.000",
+    image: "./assets/img/arreglos/48.jpeg"
+  },
+  {
+    title: "49.- Ramo surtido Rosas Lilium + Claveles",
+    description: "",
+    price: "Desde $95.000",
+    image: "./assets/img/arreglos/49.jpeg"
+  },
+  {
+    title: "50.- Pecera con Hortensias + Maule + Gerberas",
+    description: "",
+    price: "Desde $80.000",
+    image: "./assets/img/arreglos/50.jpeg"
+  },
   // Agrega más productos aquí hasta completar los 20 productos
 ];
 

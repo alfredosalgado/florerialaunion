@@ -132,7 +132,60 @@ const funeralArrangements = [
     price: "$100.000",
     image: "./assets/img/arreglosfunebres/16.jpeg"
   },
-  
+  {
+    title: "Arreglo Fúnebre 16",
+    description: "",
+    price: "$100.000",
+    image: "./assets/img/arreglosfunebres/16.jpeg"
+  },
+  {
+    title: "Arreglo Fúnebre 17",
+    description: "",
+    price: "$90.000",
+    image: "./assets/img/arreglosfunebres/17.jpeg"
+  },
+  {
+    title: "Arreglo Fúnebre 18",
+    description: "",
+    price: "$130.000",
+    image: "./assets/img/arreglosfunebres/18.jpeg"
+  },
+  {
+    title: "Arreglo Fúnebre 19",
+    description: "",
+    price: "$60.000",
+    image: "./assets/img/arreglosfunebres/19.jpeg"
+  },
+  {
+    title: "Arreglo Fúnebre 20",
+    description: "",
+    price: "70.000",
+    image: "./assets/img/arreglosfunebres/20.jpeg"
+  },
+  {
+    title: "Arreglo Fúnebre 21",
+    description: "",
+    price: "$50.000",
+    image: "./assets/img/arreglosfunebres/21.jpeg"
+  },
+  {
+    title: "Arreglo Fúnebre 22",
+    description: "",
+    price: "$90.000",
+    image: "./assets/img/arreglosfunebres/22.jpeg"
+  },
+  {
+    title: "Arreglo Fúnebre 23",
+    description: "",
+    price: "$75.000",
+    image: "./assets/img/arreglosfunebres/23.jpeg"
+  },
+  {
+    title: "Arreglo Fúnebre 24",
+    description: "",
+    price: "$35.000",
+    image: "./assets/img/arreglosfunebres/24.jpeg"
+  },
   // Puedes agregar más arreglos fúnebres aquí
 ];
 

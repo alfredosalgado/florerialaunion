@@ -361,8 +361,8 @@ article {
   .carousel-item {
     height: 300px; /* Ajustamos la altura para vista móvil */
   }
-  .navf {
-    display: none;
+  .navf > img {
+    height: 3.5rem;
   }
   .tituloc {
     height: 2.5rem;
