@@ -34,58 +34,58 @@ scrollToTopBtn.addEventListener("click", function (event) {
 // Array de productos
 const products = [
   {
-    title: "Caja de corazón llena de detalles románticos.",
-    description: "Un ramo de 8 rosas rojas frescas y una selección de 14 deliciosos bombones Ferrero Rocher.",
+    title: "88.- Hermoso Ramo con 100 Rosas",
+    description: "",
+    price: "$250.000",
+    image: "./assets/img/arreglos/88.jpeg"
+  },
+  {
+    title: "89.- Ramo con 10 Rosas 6 Girasoles y 2 Hortensias",
+    description: "",
+    price: "$48.000",
+    image: "./assets/img/arreglos/89.jpeg"
+  },
+  {
+    title: "90.- Hermoso Ramo con 100 Rosas",
+    description: "",
+    price: "$250.000",
+    image: "./assets/img/arreglos/90.jpeg"
+  },
+  {
+    title: "91.- Hermoso arreglo de Tulipanes",
+    description: "",
+    price: "$45.000",
+    image: "./assets/img/arreglos/91.jpeg"
+  },
+  {
+    title: "92.- Hermoso Ramo de 20 Tulipanes",
+    description: "",
     price: "$60.000",
-    image: "./assets/img/arreglos/35.jpeg"
+    image: "./assets/img/arreglos/92.jpeg"
   },
   {
-    title: "Caja de corazones con 7 Girasoles y 20 rosas rojas",
-    description: "Hermosa caja de corazones con 7 Girasoles y 20 rosas rojas frescas y seleccionadas de la mejor calidad regalo especial para expresar tu amor a ese ser amado.",
-    price: "$90.000",
-    image: "./assets/img/arreglos/36.jpeg"
+    title: "93.- Hermoso Cilindro con Rosas y Lilium",
+    description: "",
+    price: "$55.000",
+    image: "./assets/img/arreglos/93.jpeg"
   },
   {
-    title: "Caja de Corazon San Valentin",
-    description: "Esta caja de corazón es el regalo perfecto para San Valentín, contiene  14 Girasoles frascos y 14 hermosas rosas.",
-    price: "$75.000",
-    image: "./assets/img/arreglos/37.jpeg"
+    title: "94.- Ramo con Rosas, Girasoles y Lilium y Chocolate",
+    description: "",
+    price: "$45.000",
+    image: "./assets/img/arreglos/94.jpeg"
   },
   {
-    title: "Caja floral de rosas rojas",
-    description: "Hermosa caja floral de rosas rojas acompañas de gibson y una hermosa cinta roja que evoca elegancia.",
-    price: "$75.000",
-    image: "./assets/img/arreglos/38.jpeg"
+    title: "95.- Ramo con 5 Ross un Girasol y Margaritas",
+    description: "",
+    price: "$18.000",
+    image: "./assets/img/arreglos/95.jpeg"
   },
   {
-    title: "Ramo de Rosas rosadas + Girasol + Gibson.",
-    description: "Hermoso ramo de Rosas rosadas un girasol y Gibson.",
-    price: "$64.000",
-    image: "./assets/img/arreglos/40.jpeg"
-  },
-  {
-    title: "Arreglo floral de rosas surtidas + Girasoles",
-    description: "Arreglo floral de rosas surtidas en rojo y naranja acompañas de girasoles y follaje Verde.",
-    price: "$64.000",
-    image: "./assets/img/arreglos/41.jpeg"
-  },
-  {
-    title: "Ramo de rosas amarillas + Gibson blancas",
-    description: "Ramo de rosas amarillas elegancia y sofisticación acompañas de Gibson blancas.",
-    price: "$80.000",
-    image: "./assets/img/arreglos/42.jpeg"
-  },
-  {
-    title: "Ramo de Buchón San Valentín",
-    description: "Este ramo de buchón es el regalo perfecto para San Valentín, aniversarios o cualquier ocasión en la que desees expresar tu amor y cariño.",
-    price: "$200.000",
-    image: "./assets/img/arreglos/46.jpeg"
-  },
-  {
-    title: "Arreglos floral con chocolate",
-    description: "Arreglos floral con chocolate 🍫 Ferrero Rocher san Valentín",
-    price: "$70.000",
-    image: "./assets/img/arreglos/47.jpeg"
+    title: "96.- Hermoso y Elegante Arreglo Floral de Rosas Rojas",
+    description: "",
+    price: "$320.000",
+    image: "./assets/img/arreglos/96.jpeg"
   },
 ];
 

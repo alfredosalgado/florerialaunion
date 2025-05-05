@@ -236,104 +236,380 @@ const products = [
   {
     title: "34.- Arreglo",
     description: "",
-    price: "Desde $19.000",
+    price: "$19.000",
     image: "./assets/img/arreglos/34.jpeg"
   },
   {
     title: "35.- Caja de corazón llena de detalles románticos.",
     description: "",
-    price: "Desde $60.000",
+    price: "$60.000",
     image: "./assets/img/arreglos/35.jpeg"
   },
   {
     title: "36.- Caja de corazones con 7 Girasoles y 20 rosas rojas",
     description: "",
-    price: "Desde $90.000",
+    price: "$90.000",
     image: "./assets/img/arreglos/36.jpeg"
   },
   {
     title: "37.- Caja de Corazon San Valentin",
     description: "",
-    price: "Desde $75.000",
+    price: "$75.000",
     image: "./assets/img/arreglos/37.jpeg"
   },
   {
     title: "38.- Caja floral de rosas rojas",
     description: "",
-    price: "Desde $75.000",
+    price: "$75.000",
     image: "./assets/img/arreglos/38.jpeg"
   },
   {
     title: "39.- Arreglo",
     description: "",
-    price: "Desde $88.000",
+    price: "$88.000",
     image: "./assets/img/arreglos/39.jpeg"
   },
   {
     title: "40.- Ramo de Rosas rosadas + Girasol + Gibson.",
     description: "",
-    price: "Desde $64.000",
+    price: "$64.000",
     image: "./assets/img/arreglos/40.jpeg"
   },
   {
     title: "41.- Arreglo floral de rosas surtidas + Girasoles",
     description: "",
-    price: "Desde $64.000",
+    price: "$64.000",
     image: "./assets/img/arreglos/41.jpeg"
   },
   {
     title: "42.- Ramo de rosas amarillas + Gibson blancas",
     description: "",
-    price: "Desde $80.000",
+    price: "$80.000",
     image: "./assets/img/arreglos/42.jpeg"
   },
   {
     title: "43.- Arreglo",
     description: "",
-    price: "Desde $190.000",
+    price: "$190.000",
     image: "./assets/img/arreglos/43.jpeg"
   },
   {
     title: "44.- Arreglo",
     description: "",
-    price: "Desde $40.000",
+    price: "$40.000",
     image: "./assets/img/arreglos/44.jpeg"
   },
   {
     title: "45.- Arreglo",
     description: "",
-    price: "Desde $190.000",
+    price: "$190.000",
     image: "./assets/img/arreglos/45.jpeg"
   },
   {
     title: "46.- Ramo de Buchón San Valentín",
     description: "",
-    price: "Desde $200.000",
+    price: "$200.000",
     image: "./assets/img/arreglos/46.jpeg"
   },
   {
     title: "47.- Arreglos floral con chocolate",
     description: "",
-    price: "Desde $70.000",
+    price: "$70.000",
     image: "./assets/img/arreglos/47.jpeg"
   },
   {
     title: "48.- Canasto surtido Rosas y Lilium",
     description: "",
-    price: "Desde $78.000",
+    price: "$78.000",
     image: "./assets/img/arreglos/48.jpeg"
   },
   {
     title: "49.- Ramo surtido Rosas Lilium + Claveles",
     description: "",
-    price: "Desde $95.000",
+    price: "$95.000",
     image: "./assets/img/arreglos/49.jpeg"
   },
   {
     title: "50.- Pecera con Hortensias + Maule + Gerberas",
     description: "",
-    price: "Desde $80.000",
+    price: "$80.000",
     image: "./assets/img/arreglos/50.jpeg"
+  },
+  {
+    title: "51.- Flores Amarillas + Gibson",
+    description: "",
+    price: "$28.000",
+    image: "./assets/img/arreglos/51.jpeg"
+  },
+  {
+    title: "52.- Docenas de Rosas amarillas + Gibson",
+    description: "",
+    price: "$38.000",
+    image: "./assets/img/arreglos/52.jpeg"
+  },
+  {
+    title: "53.- Pie de Urna",
+    description: "",
+    price: "$35.000",
+    image: "./assets/img/arreglos/53.jpeg"
+  },
+  {
+    title: "54.- Rosas blancas + Gibson",
+    description: "",
+    price: "$35.000",
+    image: "./assets/img/arreglos/54.jpeg"
+  },
+  {
+    title: "55.- Pie de Urna",
+    description: "",
+    price: "$35.000",
+    image: "./assets/img/arreglos/55.jpeg"
+  },
+  {
+    title: "56.- Rosas amarillas + Girasol + Gibson",
+    description: "",
+    price: "$38.000",
+    image: "./assets/img/arreglos/56.jpeg"
+  },
+  {
+    title: "57.- Hermoso ramo Rosas blancas",
+    description: "",
+    price: "$240.000",
+    image: "./assets/img/arreglos/57.jpeg"
+  },
+  {
+    title: "58.- Hermosa canasta de Flores",
+    description: "",
+    price: "$55.000",
+    image: "./assets/img/arreglos/58.jpeg"
+  },
+  {
+    title: "59.- Arreglo Floral",
+    description: "",
+    price: "$35.000",
+    image: "./assets/img/arreglos/59.jpeg"
+  },
+  {
+    title: "60.- Arreglo Floral de Rosas rosadas y Gibson",
+    description: "",
+    price: "$45.000",
+    image: "./assets/img/arreglos/60.jpeg"
+  },
+  {
+    title: "61.- Arreglo Floral de Rosas balncas y Gibson",
+    description: "",
+    price: "$19.000",
+    image: "./assets/img/arreglos/61.jpeg"
+  },
+  {
+    title: "62.- Arreglo Floral de Luisa morada y Crisantemo blanco",
+    description: "",
+    price: "$20.000",
+    image: "./assets/img/arreglos/62.jpeg"
+  },
+  {
+    title: "63.- Ramo de Girasoles + Gibson + Rosas rojas",
+    description: "",
+    price: "$30.000",
+    image: "./assets/img/arreglos/63.jpeg"
+  },
+  {
+    title: "64.- Rosas blancas y rosadas + Gibson",
+    description: "",
+    price: "$22.000",
+    image: "./assets/img/arreglos/64.jpeg"
+  },
+  {
+    title: "65.- Arreglo Florar de Rosas blancas y rojas",
+    description: "",
+    price: "$20.000",
+    image: "./assets/img/arreglos/65.jpeg"
+  },
+  {
+    title: "66.- Rosas rosadas + Gibson",
+    description: "",
+    price: "$30.000",
+    image: "./assets/img/arreglos/66.jpeg"
+  },
+  {
+    title: "67.- Rosas rojas + Eucalipto",
+    description: "",
+    price: "$60.000",
+    image: "./assets/img/arreglos/67.jpeg"
+  },
+  {
+    title: "68.- Rosas blancas + Gibson",
+    description: "",
+    price: "$60.000",
+    image: "./assets/img/arreglos/68.jpeg"
+  },
+  {
+    title: "69.- Cubre Urna Rosas + Lilium + Eucalipto",
+    description: "",
+    price: "$90.000",
+    image: "./assets/img/arreglos/69.jpeg"
+  },
+  {
+    title: "70.- Hermosa pecera con Tulipanes + Gibson",
+    description: "",
+    price: "$25.000",
+    image: "./assets/img/arreglos/70.jpeg"
+  },
+  {
+    title: "71.- Arreglo Tulipanes amarillos + Gibson y Rosa roja",
+    description: "",
+    price: "$25.000",
+    image: "./assets/img/arreglos/71.jpeg"
+  },
+  {
+    title: "72.- Arreglo Tulipanes amarillos ocasion especial",
+    description: "",
+    price: "$90.000",
+    image: "./assets/img/arreglos/72.jpeg"
+  },
+  {
+    title: "73.- Ramo Flores Amarillas + Gibson",
+    description: "",
+    price: "$19.000",
+    image: "./assets/img/arreglos/73.jpeg"
+  },
+  {
+    title: "74.- Arreglo Florar Manifestación de Amor",
+    description: "",
+    price: "$45.000",
+    image: "./assets/img/arreglos/74.jpeg"
+  },
+  {
+    title: "75.- Ramo de Lirios amarillos + Eucalipto",
+    description: "",
+    price: "$63.000",
+    image: "./assets/img/arreglos/75.jpeg"
+  },
+  {
+    title: "76.- Ramo de Girasoles acompañado de Gibson",
+    description: "",
+    price: "$17.990",
+    image: "./assets/img/arreglos/76.jpeg"
+  },
+  {
+    title: "77.- Tulipanes",
+    description: "",
+    price: "$45.000",
+    image: "./assets/img/arreglos/77.jpeg"
+  },
+  {
+    title: "78.- Tulipanes Amarillos",
+    description: "",
+    price: "$40.000",
+    image: "./assets/img/arreglos/78.jpeg"
+  },
+  {
+    title: "79.- Girasoles + Gibson",
+    description: "",
+    price: "$20.000",
+    image: "./assets/img/arreglos/79.jpeg"
+  },
+  {
+    title: "80.- Girasol principal",
+    description: "",
+    price: "$15.000",
+    image: "./assets/img/arreglos/80.jpeg"
+  },
+  {
+    title: "81.- Tulipanes",
+    description: "",
+    price: "$38.000",
+    image: "./assets/img/arreglos/81.jpeg"
+  },
+  {
+    title: "82.- Hermoso Ramo con 10 Tulipanes",
+    description: "",
+    price: "$32.000",
+    image: "./assets/img/arreglos/82.jpeg"
+  },
+  {
+    title: "83.- Ramo de Mano con Rosas, Lilium y Astromelia",
+    description: "",
+    price: "$24.000",
+    image: "./assets/img/arreglos/83.jpeg"
+  },
+  {
+    title: "84.- Hermoso Ramo con 10 Liciantus",
+    description: "",
+    price: "$28.000",
+    image: "./assets/img/arreglos/84.jpeg"
+  },
+  {
+    title: "85.- Ramo con 12 Rosas + Eucalipto y Statices",
+    description: "",
+    price: "$36.000",
+    image: "./assets/img/arreglos/85.jpeg"
+  },
+  {
+    title: "86.- Ramo con 20 Tulipanes",
+    description: "",
+    price: "$60.000",
+    image: "./assets/img/arreglos/86.jpeg"
+  },
+  {
+    title: "87.- Ramo de Ronusculos + Rosas + Liciantus + Claveles + Litium",
+    description: "",
+    price: "$45.000",
+    image: "./assets/img/arreglos/87.jpeg"
+  },
+  {
+    title: "88.- Hermoso Ramo con 100 Rosas",
+    description: "",
+    price: "$250.000",
+    image: "./assets/img/arreglos/88.jpeg"
+  },
+  {
+    title: "89.- Ramo con 10 Rosas 6 Girasoles y 2 Hortensias",
+    description: "",
+    price: "$48.000",
+    image: "./assets/img/arreglos/89.jpeg"
+  },
+  {
+    title: "90.- Hermoso Ramo con 100 Rosas",
+    description: "",
+    price: "$250.000",
+    image: "./assets/img/arreglos/90.jpeg"
+  },
+  {
+    title: "91.- Hermoso arreglo de Tulipanes",
+    description: "",
+    price: "$45.000",
+    image: "./assets/img/arreglos/91.jpeg"
+  },
+  {
+    title: "92.- Hermoso Ramo de 20 Tulipanes",
+    description: "",
+    price: "$60.000",
+    image: "./assets/img/arreglos/92.jpeg"
+  },
+  {
+    title: "93.- Hermoso Cilindro con Rosas y Lilium",
+    description: "",
+    price: "$55.000",
+    image: "./assets/img/arreglos/93.jpeg"
+  },
+  {
+    title: "94.- Ramo con Rosas, Girasoles y Lilium y Chocolate",
+    description: "",
+    price: "$45.000",
+    image: "./assets/img/arreglos/94.jpeg"
+  },
+  {
+    title: "95.- Ramo con 5 Ross un Girasol y Margaritas",
+    description: "",
+    price: "$18.000",
+    image: "./assets/img/arreglos/95.jpeg"
+  },
+  {
+    title: "96.- Hermoso y Elegante Arreglo Floral de Rosas Rojas",
+    description: "",
+    price: "$320.000",
+    image: "./assets/img/arreglos/96.jpeg"
   },
   // Agrega más productos aquí hasta completar los 20 productos
 ];
