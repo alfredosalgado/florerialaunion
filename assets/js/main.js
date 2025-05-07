@@ -34,58 +34,70 @@ scrollToTopBtn.addEventListener("click", function (event) {
 // Array de productos
 const products = [
   {
-    title: "88.- Hermoso Ramo con 100 Rosas",
+    title: "37.- Caja de Corazon Ocasión Especial",
     description: "",
-    price: "$250.000",
-    image: "./assets/img/arreglos/88.jpeg"
+    price: "$75.000",
+    image: "./assets/img/arreglos/37.jpeg"
   },
   {
-    title: "89.- Ramo con 10 Rosas 6 Girasoles y 2 Hortensias",
+    title: "36.- Caja de corazones con 7 Girasoles y 20 rosas rojas",
     description: "",
-    price: "$48.000",
-    image: "./assets/img/arreglos/89.jpeg"
+    price: "$90.000",
+    image: "./assets/img/arreglos/36.jpeg"
   },
   {
-    title: "90.- Hermoso Ramo con 100 Rosas",
-    description: "",
-    price: "$250.000",
-    image: "./assets/img/arreglos/90.jpeg"
-  },
-  {
-    title: "91.- Hermoso arreglo de Tulipanes",
-    description: "",
-    price: "$45.000",
-    image: "./assets/img/arreglos/91.jpeg"
-  },
-  {
-    title: "92.- Hermoso Ramo de 20 Tulipanes",
+    title: "35.- Caja de corazón llena de detalles de amor",
     description: "",
     price: "$60.000",
-    image: "./assets/img/arreglos/92.jpeg"
+    image: "./assets/img/arreglos/35.jpeg"
   },
   {
-    title: "93.- Hermoso Cilindro con Rosas y Lilium",
+    title: "38.- Caja floral de rosas rojas",
+    description: "",
+    price: "$75.000",
+    image: "./assets/img/arreglos/38.jpeg"
+  },
+  {
+    title: "32.- Caja de Corazón 25 Rosas azules + Chocolates Ferrero R.",
+    description: "Caja de corazón con 25 rosas azules frescas  de alta calidad  y chocolates Ferrero Rocher ideal para hombres.",
+    price: "$185.000",
+    image: "./assets/img/arreglos/32.jpeg"
+  },
+  {
+    title: "30.- Ramo buchón Rosas blancas + rojas + chocolates Ferrero R.",
+    description: "Ramo buchón con Rosas blancas y Rojas, chocolates Ferrero Roche. ideal para regalo de cumpleaños san Valentín fecha especial aniversario.",
+    price: "$130.000",
+    image: "./assets/img/arreglos/30.jpeg"
+  },
+  {
+    title: "16.- Ramo de Rosas + Gibson",
+    description: "Ramo de rosas y Gibson sofisticación y elegancia.",
+    price: "$66.000",
+    image: "./assets/img/arreglos/16.jpeg"
+  },
+  {
+    title: "97.- Ramo de 50 Girasoles",
+    description: "",
+    price: "$150.000",
+    image: "./assets/img/arreglos/97.jpeg"
+  },
+  {
+    title: "98.- Arreglo de Rosas Blancas y Rojas",
+    description: "",
+    price: "$65.000",
+    image: "./assets/img/arreglos/98.jpeg"
+  },
+  {
+    title: "99.- Arreglo de Rosas rojas y Chocolates",
     description: "",
     price: "$55.000",
-    image: "./assets/img/arreglos/93.jpeg"
+    image: "./assets/img/arreglos/99.jpeg"
   },
   {
-    title: "94.- Ramo con Rosas, Girasoles y Lilium y Chocolate",
+    title: "100.- Arreglo con 13 Girasoles y Chocolates",
     description: "",
-    price: "$45.000",
-    image: "./assets/img/arreglos/94.jpeg"
-  },
-  {
-    title: "95.- Ramo con 5 Ross un Girasol y Margaritas",
-    description: "",
-    price: "$18.000",
-    image: "./assets/img/arreglos/95.jpeg"
-  },
-  {
-    title: "96.- Hermoso y Elegante Arreglo Floral de Rosas Rojas",
-    description: "",
-    price: "$320.000",
-    image: "./assets/img/arreglos/96.jpeg"
+    price: "$50.000",
+    image: "./assets/img/arreglos/100.jpeg"
   },
 ];
 

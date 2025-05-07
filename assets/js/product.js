@@ -240,7 +240,7 @@ const products = [
     image: "./assets/img/arreglos/34.jpeg"
   },
   {
-    title: "35.- Caja de corazón llena de detalles románticos.",
+    title: "35.- Caja de corazón llena de detalles de amor",
     description: "",
     price: "$60.000",
     image: "./assets/img/arreglos/35.jpeg"
@@ -252,7 +252,7 @@ const products = [
     image: "./assets/img/arreglos/36.jpeg"
   },
   {
-    title: "37.- Caja de Corazon San Valentin",
+    title: "37.- Caja de Corazon Ocasión Especial",
     description: "",
     price: "$75.000",
     image: "./assets/img/arreglos/37.jpeg"
@@ -610,6 +610,30 @@ const products = [
     description: "",
     price: "$320.000",
     image: "./assets/img/arreglos/96.jpeg"
+  },
+  {
+    title: "97.- Ramo de 50 Girasoles",
+    description: "",
+    price: "$150.000",
+    image: "./assets/img/arreglos/97.jpeg"
+  },
+  {
+    title: "98.- Arreglo de Rosas Blancas y Rojas",
+    description: "",
+    price: "$65.000",
+    image: "./assets/img/arreglos/98.jpeg"
+  },
+  {
+    title: "99.- Arreglo de Rosas rojas y Chocolates",
+    description: "",
+    price: "$55.000",
+    image: "./assets/img/arreglos/99.jpeg"
+  },
+  {
+    title: "100.- Arreglo con 13 Girasoles y Chocolates",
+    description: "",
+    price: "$50.000",
+    image: "./assets/img/arreglos/100.jpeg"
   },
   // Agrega más productos aquí hasta completar los 20 productos
 ];
