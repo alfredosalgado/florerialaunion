@@ -34,67 +34,67 @@ scrollToTopBtn.addEventListener("click", function (event) {
 // Array de productos
 const products = [
   {
-    title: "37.- Caja de Corazon Ocasión Especial",
+    title: "Caja de Corazon Ocasión Especial",
     description: "",
     price: "$75.000",
     image: "./assets/img/arreglos/37.jpeg"
   },
   {
-    title: "36.- Caja de corazones con 7 Girasoles y 20 rosas rojas",
+    title: "Caja de corazones con 7 Girasoles y 20 rosas rojas",
     description: "",
     price: "$90.000",
     image: "./assets/img/arreglos/36.jpeg"
   },
   {
-    title: "35.- Caja de corazón llena de detalles de amor",
+    title: "Caja de corazón llena de detalles de amor",
     description: "",
     price: "$60.000",
     image: "./assets/img/arreglos/35.jpeg"
   },
   {
-    title: "38.- Caja floral de rosas rojas",
+    title: "Caja floral de rosas rojas",
     description: "",
     price: "$75.000",
     image: "./assets/img/arreglos/38.jpeg"
   },
   {
-    title: "32.- Caja de Corazón 25 Rosas azules + Chocolates Ferrero R.",
+    title: "Caja de Corazón 25 Rosas azules + Chocolates Ferrero R.",
     description: "Caja de corazón con 25 rosas azules frescas  de alta calidad  y chocolates Ferrero Rocher ideal para hombres.",
     price: "$185.000",
     image: "./assets/img/arreglos/32.jpeg"
   },
   {
-    title: "30.- Ramo buchón Rosas blancas + rojas + chocolates Ferrero R.",
+    title: "Ramo buchón Rosas blancas + rojas + chocolates Ferrero R.",
     description: "Ramo buchón con Rosas blancas y Rojas, chocolates Ferrero Roche. ideal para regalo de cumpleaños san Valentín fecha especial aniversario.",
     price: "$130.000",
     image: "./assets/img/arreglos/30.jpeg"
   },
   {
-    title: "16.- Ramo de Rosas + Gibson",
+    title: "Ramo de Rosas + Gibson",
     description: "Ramo de rosas y Gibson sofisticación y elegancia.",
     price: "$66.000",
     image: "./assets/img/arreglos/16.jpeg"
   },
   {
-    title: "97.- Ramo de 50 Girasoles",
+    title: "Ramo de 50 Girasoles",
     description: "",
     price: "$150.000",
     image: "./assets/img/arreglos/97.jpeg"
   },
   {
-    title: "98.- Arreglo de Rosas Blancas y Rojas",
+    title: "Arreglo de Rosas Blancas y Rojas",
     description: "",
     price: "$65.000",
     image: "./assets/img/arreglos/98.jpeg"
   },
   {
-    title: "99.- Arreglo de Rosas rojas y Chocolates",
+    title: "Arreglo de Rosas rojas y Chocolates",
     description: "",
     price: "$55.000",
     image: "./assets/img/arreglos/99.jpeg"
   },
   {
-    title: "100.- Arreglo con 13 Girasoles y Chocolates",
+    title: "Arreglo con 13 Girasoles y Chocolates",
     description: "",
     price: "$50.000",
     image: "./assets/img/arreglos/100.jpeg"
